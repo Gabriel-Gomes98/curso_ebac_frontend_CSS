@@ -103,3 +103,18 @@ section h2 {
 #economy .articles article a {
     background-color: #ff9f1a;
 }
+
+#tecnologia {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+#tecnologia .articles article a {
+    background-color: #a00606;
+}
+
+#tecnologia .articles article .link-externo {
+    background-color: rgba(0, 0, 0, 0.0);
+    color: #a00606;
+    margin: 0;
+    padding: 0;
+}
