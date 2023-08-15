@@ -4,20 +4,22 @@
     padding: 0;
 }
 
-body {
-    background-color: #1f2833;
-}
-
 body > header {
     background-color: #0b0c10;
     padding: 16px 0;
-    color: #66fcf1;
+    color: #ffffff;
 }
 
 header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
 }
 
 header li {
@@ -28,8 +30,12 @@ header li {
 }
 
 header li a {
-    color: #66fcf1;
+    color: #ffffff;
     text-decoration: none;
+}
+
+header li a:hover {
+    text-decoration: underline;
 }
 
 .container {
@@ -37,14 +43,9 @@ header li a {
     margin: 0 auto;
 }
 
-h2, 
-h3 {
-    color: #66fcf1;
-}
-
 .articles article,
 time {
-    color: #ffffff;
+    color: #000000;
 }
 
 .articles {
@@ -76,7 +77,6 @@ section h2,
 }
 
 .articles article a {
-    color: #45a29e;
     padding: 8px;
     display: inline-block;
     text-decoration: none;
@@ -101,4 +101,44 @@ section h2,
 
 section h2 {
     font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.2);
+}
+
+#sports a {
+    background-color: #1cf30077;
+    color: #000000;
+}
+
+#economy {
+    background-color: rgba(255, 255, 0, 0.2);
+}
+
+#economy a {
+    background-color: #f3ef00bb;
+    color: #000000;
+}
+
+#tecnologia {
+    background-color: rgba(0, 0, 255, 0.2);
+}
+
+#tecnologia a {
+    background-color: #1800f3bb;
+    color: #000000;
+}
+
+#tecnologia .link-externo {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#entretenimento {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+#entretenimento a {
+    background-color: #f30000bb;
+    color: #000000;
 }
